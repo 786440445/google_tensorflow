@@ -8,6 +8,13 @@ num_batches = 100
 def print_activations(t):
     print(t.op.name, '', t.get_shape().as_list())
 
+# -------
+# conv + maxpool
+# conv + maxpool
+# conv * 3
+# maxpool
+# FC
+
 def inference(images):
     parameters = []
 
